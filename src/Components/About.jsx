@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/blue.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +24,23 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Computer Systems Engineering Student (BEng) currently studying at the University of Warwick. I am currently working as a Microsoft Student Ambassador and I am also the Vice President of the Warwick Data Science Society.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Computer Vision",
+  "Python",
+  "Java",
+  "SQL",
+  "C",
+  "MATLAB",
+  "Simulink",
+  "Communications",
+  "Public Speaking",
+  "PyTorch"
 ];
 
 /**
@@ -45,7 +49,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Dedicated, tenacious, and self-motivated, I am passionate about technology and excited about working in AI and product development. While possessing excellent communication skills, my forte is having a creative bent of mind. Demonstrated success both as a leader as well as a team player, in the several class projects that I have been part of.";
 
 const About = () => {
   return (
